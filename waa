@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Primera Página</title>
+</head>
+<body>
+    
+  <h1>¡Hola, que onda soy yo benja pelotudeando haciendo paginas JDAJDAJDJADJA JEJEJE JIJIJI JOJOJO QUE LINZO SOY JEJEEJ.</h1>
+  <p>ahora voy a poner videos aqui.</p>
+</body>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/He7dSGhyeHA?si=IC9iIcikf9_dPedc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Página Interactiva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #8529d1;
+      text-align: center;
+    }
+    button {
+      background-color: #4c82af;
+      color: rgb(0, 0, 0);
+      padding: 15px 32px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>¡Bienvenidos!</h1>
+  
+  <p>No toques el mensaje:</p>
+  
+  <button onclick="mostrarMensaje()">Tocame</button>
+
+  <script>
+    function mostrarMensaje() {
+      alert("te dije que no toques");
+    }
+  </script>
+
+</body>
+</html>
+
